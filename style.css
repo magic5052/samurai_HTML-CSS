@@ -25,3 +25,30 @@ header {
 }
 
 /* ナビゲーションのレイアウト */
+#nav-pc {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc>a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#nav-pc>a:link {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:visited {
+    color: #0d0d0d;
+}
+
+#nav-pc>a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+}
+
+#nav-pc>a:active {
+    color: #0d0d0d;
+}
